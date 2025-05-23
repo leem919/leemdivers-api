@@ -12,8 +12,7 @@ COPY . /app
 RUN echo "Flask" > requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose ports 80 and 443
-EXPOSE 80
+# Expose port 443
 EXPOSE 443
 
 # Define environment variable
