@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, make_response
 import json
+from datetime import datetime, timezone
 
 app = Flask(__name__)
 
@@ -218,12 +219,24 @@ war_info_801_data = {
   ]
 }
 
+galactic_war_effects_data = [
+  {"id":1,"gameplayEffectId32":0,"effectType":43,"flags":0,"nameHash":1016609603,"descriptionFluffHash":0,"descriptionGamePlayLongHash":3703951420,"descriptionGamePlayShortHash":473399848,"valueTypes":[1,0],"values":[-1,0]},
+  {"id":5,"gameplayEffectId32":0,"effectType":1,"flags":0,"nameHash":3228578710,"descriptionFluffHash":0,"descriptionGamePlayLongHash":3577056812,"descriptionGamePlayShortHash":3338837552,"valueTypes":[2,0],"values":[-10,0]},
+  {"id":8,"gameplayEffectId32":0,"effectType":44,"flags":0,"nameHash":1950950127,"descriptionFluffHash":0,"descriptionGamePlayLongHash":1634139783,"descriptionGamePlayShortHash":1534518605,"valueTypes":[2,0],"values":[200,0]},
+  {"id":12,"gameplayEffectId32":0,"effectType":45,"flags":0,"nameHash":824899430,"descriptionFluffHash":0,"descriptionGamePlayLongHash":3900785263,"descriptionGamePlayShortHash":1948172020,"valueTypes":[7,0],"values":[3639986401,0]},
+  {"id":13,"gameplayEffectId32":0,"effectType":46,"flags":0,"nameHash":668075036,"descriptionFluffHash":0,"descriptionGamePlayLongHash":1131410354,"descriptionGamePlayShortHash":1788167922,"valueTypes":[1,0],"values":[3600,0]},
+  {"id":55,"gameplayEffectId32":0,"effectType":25,"flags":0,"nameHash":76488365,"descriptionFluffHash":0,"descriptionGamePlayLongHash":1828599885,"descriptionGamePlayShortHash":1755351526,"valueTypes":[2,0],"values":[100,0]}
+]
+
 @app.route('/api/Configuration/GameClient', methods=['GET'])
 def get_game_configuration():
     print(f"Received GET request for /api/Configuration/GameClient")
     print(f"Request Headers: {request.headers}")
 
     response = make_response(jsonify(game_client_config_data))
+    response.headers['Content-Type'] = 'application/json; charset=utf-8'
+    response.headers['Cache-Control'] = 'public,max-age=30'
+    response.headers['Server'] = 'MockFlaskServer/1.0'
     return response
 
 @app.route('/api/Account/Login', methods=['POST'])
@@ -248,6 +261,21 @@ def get_war_info_801():
     print(f"Request Headers: {request.headers}")
     return jsonify(war_info_801_data)
 
+@app.route('/api/WarSeason/801/timeSinceStart', methods=['GET'])
+def get_time_since_war_start():
+    start_time_str = "2024-01-23 12:05:13"
+    start_time = datetime.strptime(start_time_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+
+    current_time = datetime.now(timezone.utc)
+
+    time_difference = current_time - start_time
+
+    seconds_since_start = int(time_difference.total_seconds())
+
+    print(f"Received GET request for /api/WarSeason/801/timeSinceStart")
+    print(f"Request Headers: {request.headers}")
+    return jsonify({"secondsSinceStart": seconds_since_start})
+
 @app.route('/api/Account/InfoLookup', methods=['POST'])
 def account_info_lookup():
     print(f"Received POST request for /api/Account/InfoLookup")
@@ -258,8 +286,13 @@ def account_info_lookup():
     print(f"Request Headers: {request.headers}")
     print(f"InfoLookup Request Data: {data}")
 
-    # Simple success response
     return jsonify({"status": "success", "message": "Info lookup successful"}), 200
+
+@app.route('/api/WarSeason/GalacticWarEffects', methods=['GET'])
+def get_galactic_war_effects():
+    print(f"Received GET request for /api/WarSeason/GalacticWarEffects")
+    print(f"Request Headers: {request.headers}")
+    return jsonify(galactic_war_effects_data)
 
 if __name__ == '__main__':
     print("Starting mock Helldivers API server with HTTPS...")
