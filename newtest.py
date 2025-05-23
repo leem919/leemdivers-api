@@ -541,7 +541,7 @@ def get_item_packages():
 def get_progression_packages():
     print(f"Received GET request for /api/Progression/ProgressionPackages")
     print(f"Request Headers: {request.headers}")
-    return jsonify(progreession_packages_data)
+    return jsonify(progression_packages_data)
 
 if __name__ == '__main__':
     print("Starting mock Helldivers API server with HTTPS...")
