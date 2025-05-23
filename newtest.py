@@ -637,7 +637,7 @@ def get_news_feed_801():
 def get_operation_ids():
     print(f"Received GET request for /api/Operation")
     print(f"Request Headers: {request.headers}")
-    return jsonify({"operationIds": [0, 0, 0, 0, 0]})
+    return jsonify({"nextOperationId":531,"operations":[{"id":0,"seed":0,"warId":0,"planetIndex":0,"placementNodeIndex":0,"isActive":false,"type":0,"difficulty":0,"race":0,"missions":[],"rewards":[]},{"id":0,"seed":0,"warId":0,"planetIndex":0,"placementNodeIndex":0,"isActive":false,"type":0,"difficulty":0,"race":0,"missions":[],"rewards":[]},{"id":0,"seed":0,"warId":0,"planetIndex":0,"placementNodeIndex":0,"isActive":false,"type":0,"difficulty":0,"race":0,"missions":[],"rewards":[]},{"id":0,"seed":0,"warId":0,"planetIndex":0,"placementNodeIndex":0,"isActive":false,"type":0,"difficulty":0,"race":0,"missions":[],"rewards":[]},{"id":0,"seed":0,"warId":0,"planetIndex":0,"placementNodeIndex":0,"isActive":false,"type":0,"difficulty":0,"race":0,"missions":[],"rewards":[]}]})
 
 if __name__ == '__main__':
     print("Starting mock Helldivers API server with HTTPS...")
