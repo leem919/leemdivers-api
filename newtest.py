@@ -643,7 +643,7 @@ def get_operation_ids():
     return jsonify(operations_data)
 
 @app.route('/api/Progression/ItemPackages', methods=['GET'])
-def get_operation_ids():
+def get_item_packages():
     print(f"Received GET request for /api/Progression/ItemPackages")
     print(f"Request Headers: {request.headers}")
     return jsonify(item_packages)
