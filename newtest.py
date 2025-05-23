@@ -540,6 +540,9 @@ war_status_801_data = {
   "layoutVersion": 44
 }
 
+news_feed_801_data = [{"id":2797,"published":2414563,"type":0,"tagIds":[],"message":"Terminid spores have engulfed Heeth and Angel's Venture, spawning hordes of Terminids that overwhelmed our colonial militias. Clearly, the bug hive instinct oriented their mindless expansion towards dishonoring the memory of those who fought to free these planets.\n\nYour fellow Helldivers paid for these lands with their lives. We cannot lose them now. Hold the planets until SEAF reinforcements arrive."}, {"id":2798,"published":2499000,"type":0,"tagIds":[],"message":"The Advanced Liberation Tools Research Agency (ALTRA) has tested successful prototypes of a new combat asset. Helldivers are advised to review proper mechanical operation procedures in preparation for the incoming asset."}, {"id":2799,"published":2507100,"type":0,"tagIds":[],"message":"NEW MAJOR ORDER\nTien Kwan is home to the sole arsenal of new Exosuit technology. It is only a matter of time before the Automatons discover the arsenal and steal it for themselves. Liberate Tien Kwan, before it's too late."}, {"id":2800,"published":2531100,"type":0,"tagIds":[],"message":"AUTOMATON COUNTERATTACK\nIntercepted messages indicate bot plans for a significant push. Increased resistance on Automaton planets is anticipated."}, {"id":2801,"published":2598240,"type":0,"tagIds":[],"message":"Well done, Helldivers. Tien Kwan has been returned to the care of Managed Democracy. The Morgunson Arsenal, and its stockpile of freshly-produced Exosuits, were recovered intact.\n\nThe EXO-45 PATRIOT EXOSUIT is now available for requisition."}, {"id":2802,"published":2705219,"type":0,"tagIds":[],"message":"Upon each Barrier Planet now stands a network of massive, Termicide-dispensing towers: the Terminid Control System. Once activated, the TCS will exterminate every Terminid on that planet, and inoculate it against all future infestations. \n\nHowever, surges in Terminid activity have forced the SEAF Engineers to evacuate. Now, only the Helldivers can ensure the safety of our citizens.\n\nThe Terminid Control System must be activated—at any cost."}, {"id":2803,"published":2705235,"type":0,"tagIds":[],"message":"NEW MAJOR ORDER\nActivate Terminid Control System"}, {"id":2804,"published":2822793,"type":0,"tagIds":[],"message":"FENRIR III SECURED\nThe Terminid Control System is now fully activated on Fenrir III."}, {"id":2805,"published":2899259,"type":0,"tagIds":[],"message":"TURING SECURED\nThe Terminid Control System is now fully activated on Turing."}, {"id":2806,"published":2899330,"type":0,"tagIds":[],"message":"The TCS has been fully activated on half of the Barrier Planets."}]
+
+
 @app.route('/api/Configuration/GameClient', methods=['GET'])
 def get_game_configuration():
     print(f"Received GET request for /api/Configuration/GameClient")
@@ -623,6 +626,18 @@ def get_war_status_801():
     print(f"Received GET request for /api/WarSeason/801/Status")
     print(f"Request Headers: {request.headers}")
     return jsonify(war_status_801_data)
+
+@app.route('/api/NewsFeed/801', methods=['GET'])
+def get_news_feed_801():
+    print(f"Received GET request for /api/NewsFeed/801")
+    print(f"Request Headers: {request.headers}")
+    return jsonify(news_feed_801_data)
+
+@app.route('/api/Operation', methods=['GET'])
+def get_operation_ids():
+    print(f"Received GET request for /api/Operation")
+    print(f"Request Headers: {request.headers}")
+    return jsonify({"operationIds": [0, 0, 0, 0, 0]})
 
 if __name__ == '__main__':
     print("Starting mock Helldivers API server with HTTPS...")
