@@ -3,8 +3,6 @@ import json
 
 app = Flask(__name__)
 
-# Embedded game client configuration data
-# This data is taken directly from the "raw json:" section of gameclientresponse.txt
 game_client_config_data = {
     "pollingConfiguration": [
         {"id32": 2298181301, "interval": 900}, {"id32": 1090315739, "interval": 90},
@@ -130,81 +128,138 @@ game_client_config_data = {
         {"id32": 2711371980, "values": [0, 1], "weights": [1, 1]},
         {"id32": 184805542, "values": [0, 1], "weights": [1, 1]}
     ]
-} # [cite: 1]
+}
 
+war_info_801_data = {
+  "warId": 801,
+  "startDate": 1706040313,
+  "endDate": 1833653095,
+  "layoutVersion": 44,
+  "minimumClientVersion": "0.3.0",
+  "planetInfos": [
+    {
+      "index": 0,
+      "settingsHash": 897386910,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "waypoints": [],
+      "sector": 0,
+      "maxHealth": 1000000,
+      "disabled": False,
+      "initialOwner": 1
+    },
+    {
+      "index": 1,
+      "settingsHash": 3621417917,
+      "position": {
+        "x": 0.05373042,
+        "y": 0.10565466
+      },
+      "waypoints": [],
+      "sector": 1,
+      "maxHealth": 1000000,
+      "disabled": False,
+      "initialOwner": 1
+    },
+    {
+      "index": 2,
+      "settingsHash": 2543303604,
+      "position": {
+        "x": 0.04664221,
+        "y": 0.16758725
+      },
+      "waypoints": [],
+      "sector": 1,
+      "maxHealth": 1000000,
+      "disabled": False,
+      "initialOwner": 1
+    },
+    {
+      "index": 3,
+      "settingsHash": 2768073863,
+      "position": {
+        "x": 0.12536779,
+        "y": 0.11821219
+      },
+      "waypoints": [],
+      "sector": 1,
+      "maxHealth": 1000000,
+      "disabled": False,
+      "initialOwner": 1
+    },
+    {
+      "index": 4,
+      "settingsHash": 158585041,
+      "position": {
+        "x": 0.10280278,
+        "y": 0.05765711
+      },
+      "waypoints": [],
+      "sector": 1,
+      "maxHealth": 1000000,
+      "disabled": False,
+      "initialOwner": 1
+    },
+    {
+      "index": 5,
+      "settingsHash": 1008084099,
+      "position": {
+        "x": 0.15988354,
+        "y": 0.043583166
+      },
+      "waypoints": [],
+      "sector": 1,
+      "maxHealth": 1000000,
+      "disabled": False,
+      "initialOwner": 1
+    }
+  ]
+}
 
 @app.route('/api/Configuration/GameClient', methods=['GET'])
 def get_game_configuration():
-    """
-    Handles the GET request for game client configuration.
-    Responds with embedded JSON data.
-    """
-    print(f"Received GET request for /api/Configuration/GameClient") # [cite: 2]
+    print(f"Received GET request for /api/Configuration/GameClient")
     print(f"Request Headers: {request.headers}")
 
-    response = make_response(jsonify(game_client_config_data)) # [cite: 1]
-    # Set some of the headers observed in gameclientresponse.txt [cite: 1]
-    response.headers['Content-Type'] = 'application/json; charset=utf-8' # [cite: 1]
-    response.headers['Cache-Control'] = 'public,max-age=30' # [cite: 1]
-    response.headers['Server'] = 'MockFlaskServer/1.0'
-    # Add other headers as needed, e.g., 'Vary', 'Content-Encoding' if you implement compression
+    response = make_response(jsonify(game_client_config_data))
     return response
 
 @app.route('/api/Account/Login', methods=['POST'])
 def account_login():
-    """
-    Handles the POST request for account login. [cite: 2]
-    Accepts login data and returns a mock success response.
-    """
-    print(f"Received POST request for /api/Account/Login") # [cite: 2]
+    print(f"Received POST request for /api/Account/Login")
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 400
-    
+
     data = request.get_json()
     print(f"Request Headers: {request.headers}")
-    print(f"Login Request Data: {data}") # [cite: 2]
+    print(f"Login Request Data: {data}")
 
-    # Mock response
-    mock_response_data = {
-        "status": "success",
-        "message": "Login successful (mocked)",
-        "sessionId": "mock-session-id-12345",
-        "receivedInstanceId": data.get("instanceId") 
-    }
-    return jsonify(mock_response_data), 200
+    return jsonify({"status": "success", "message": "Login successful"}), 200
 
 @app.route('/api/WarSeason/current/WarId', methods=['GET'])
 def war_id():
     return jsonify({"id": 801})
 
+@app.route('/api/WarSeason/801/warinfo', methods=['GET'])
+def get_war_info_801():
+    print(f"Received GET request for /api/WarSeason/801/warinfo")
+    print(f"Request Headers: {request.headers}")
+    return jsonify(war_info_801_data)
+
 @app.route('/api/Account/InfoLookup', methods=['POST'])
 def account_info_lookup():
-    """
-    Handles the POST request for account info lookup. [cite: 2]
-    Accepts platform and IDs and returns mock user info.
-    """
-    print(f"Received POST request for /api/Account/InfoLookup") # [cite: 2]
+    print(f"Received POST request for /api/Account/InfoLookup")
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 400
-        
+
     data = request.get_json()
     print(f"Request Headers: {request.headers}")
-    print(f"InfoLookup Request Data: {data}") # [cite: 2]
-    
-    platform = data.get("platform") # [cite: 2]
-    user_ids = data.get("ids", []) # [cite: 2]
+    print(f"InfoLookup Request Data: {data}")
 
-    mock_user_infos = []
-    if isinstance(user_ids, list):
-        for user_id in user_ids:
-            mock_user_infos.append({
-                "id": user_id,
-                "displayName": f"User_{user_id[-5:]}", # Mock display name
-                "platform": platform,
-                "status": "online_mocked"
-            })
-    
-    return jsonify(mock_user_infos), 200
+    # Simple success response
+    return jsonify({"status": "success", "message": "Info lookup successful"}), 200
 
 if __name__ == '__main__':
     print("Starting mock Helldivers API server with HTTPS...")
