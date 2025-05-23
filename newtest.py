@@ -173,6 +173,10 @@ def account_login():
     }
     return jsonify(mock_response_data), 200
 
+@app.route('/api/WarSeason/current/WarId', methods=['GET'])
+def war_id():
+    return jsonify({"id": 801})
+
 @app.route('/api/Account/InfoLookup', methods=['POST'])
 def account_info_lookup():
     """
