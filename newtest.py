@@ -203,5 +203,5 @@ def account_info_lookup():
     return jsonify(mock_user_infos), 200
 
 if __name__ == '__main__':
-    print("Starting mock Helldivers API server with HTTPS on port 5000...")
+    print("Starting mock Helldivers API server with HTTPS...")
     app.run(debug=True, host='0.0.0.0', port=443)
