@@ -611,6 +611,33 @@ def get_season_pass():
     print(f"Request Headers: {request.headers}")
     return jsonify(season_pass_data)
 
+# missions test
+
+@app.route('/api/Operation/Create', methods=['POST'])
+def operation_create():
+    print(f"Received POST request for /api/Operation/Create")
+    if not request.is_json:
+        return jsonify({"error": "Request must be JSON"}), 400
+
+    data = request.get_json()
+    print(f"Request Headers: {request.headers}")
+    print(f"InfoLookup Request Data: {data}")
+
+    return jsonify({"status": "success", "message": "Operation create successful"}), 200
+
+@app.route('/api/Account/ReportPosition', methods=['POST'])
+def account_report_position():
+    print(f"Received POST request for /api/Account/ReportPosition")
+    if not request.is_json:
+        return jsonify({"error": "Request must be JSON"}), 400
+
+    data = request.get_json()
+    print(f"Request Headers: {request.headers}")
+    print(f"InfoLookup Request Data: {data}")
+
+    return jsonify({"status": "success", "message": "Report position successful"}), 200
+
+
 if __name__ == '__main__':
     print("Starting mock Helldivers API server with HTTPS...")
     app.run(debug=True, host='0.0.0.0', port=443)
