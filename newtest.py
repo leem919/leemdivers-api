@@ -105,7 +105,7 @@ galactic_war_effects_data = [
 
 news_ticker_data = {"messages":[{"id32":2399790664,"context":1,"group":0},{"id32":2061243786,"context":1,"group":0},{"id32":3667104994,"context":1,"group":0},{"id32":422331606,"context":1,"group":1},{"id32":627359968,"context":1,"group":1},{"id32":3323676179,"context":1,"group":0},{"id32":4217315838,"context":1,"group":0},{"id32":4141672169,"context":1,"group":0},{"id32":1511706843,"context":1,"group":0},{"id32":677322851,"context":1,"group":0},{"id32":893408910,"context":1,"group":0},{"id32":766228818,"context":1,"group":0},{"id32":2552962615,"context":1,"group":2},{"id32":1542765264,"context":1,"group":2},{"id32":983707629,"context":1,"group":0},{"id32":2801833803,"context":1,"group":3},{"id32":2706258613,"context":1,"group":3},{"id32":3262302717,"context":1,"group":0},{"id32":421418845,"context":1,"group":0},{"id32":2464718481,"context":1,"group":0},{"id32":450787924,"context":1,"group":0},{"id32":1401708733,"context":1,"group":4},{"id32":2237848324,"context":1,"group":4},{"id32":2121224478,"context":1,"group":0},{"id32":110359831,"context":1,"group":5},{"id32":2077769934,"context":1,"group":5},{"id32":1918416101,"context":1,"group":0},{"id32":1898505845,"context":1,"group":0},{"id32":2902232420,"context":1,"group":0},{"id32":2782937074,"context":1,"group":0},{"id32":1391161752,"context":1,"group":0},{"id32":980743299,"context":1,"group":0},{"id32":1006242818,"context":1,"group":0},{"id32":1293830708,"context":1,"group":0},{"id32":3699613863,"context":1,"group":0},{"id32":3547528638,"context":1,"group":0},{"id32":4287360836,"context":1,"group":0},{"id32":968713913,"context":1,"group":0},{"id32":1214176856,"context":1,"group":0},{"id32":2144846208,"context":1,"group":7},{"id32":2365925959,"context":1,"group":0},{"id32":3994324289,"context":1,"group":7},{"id32":2616020441,"context":1,"group":0},{"id32":3279518460,"context":1,"group":0},{"id32":2683120236,"context":1,"group":0},{"id32":574562412,"context":1,"group":0},{"id32":2222856057,"context":1,"group":0},{"id32":1865943011,"context":1,"group":8},{"id32":199902803,"context":1,"group":8},{"id32":3412098611,"context":1,"group":0},{"id32":478168078,"context":1,"group":0},{"id32":257436714,"context":1,"group":0},{"id32":4010359064,"context":1,"group":0},{"id32":3933634258,"context":1,"group":0},{"id32":368572468,"context":1,"group":0},{"id32":1820072234,"context":1,"group":0},{"id32":1402635182,"context":1,"group":0},{"id32":786752156,"context":1,"group":0},{"id32":1307362764,"context":1,"group":0},{"id32":358548648,"context":1,"group":0},{"id32":3705692862,"context":2,"group":0},{"id32":2504204569,"context":1,"group":0},{"id32":1752849254,"context":1,"group":0},{"id32":81523500,"context":1,"group":0},{"id32":3744612820,"context":1,"group":0},{"id32":1248813848,"context":1,"group":0},{"id32":234584469,"context":1,"group":0},{"id32":1698977452,"context":1,"group":0},{"id32":1784509355,"context":1,"group":0},{"id32":1233597562,"context":1,"group":0},{"id32":1916939864,"context":1,"group":0},{"id32":4130639501,"context":1,"group":0},{"id32":3719011487,"context":1,"group":0},{"id32":382654467,"context":1,"group":0},{"id32":781677224,"context":1,"group":0},{"id32":1287780346,"context":1,"group":0},{"id32":1334351473,"context":1,"group":0},{"id32":3821064877,"context":1,"group":0},{"id32":3115257147,"context":1,"group":0},{"id32":98611233,"context":1,"group":0},{"id32":836288058,"context":1,"group":0},{"id32":900097455,"context":1,"group":0},{"id32":4149219876,"context":1,"group":0},{"id32":1739141267,"context":1,"group":0},{"id32":2435973138,"context":1,"group":0},{"id32":2989731610,"context":1,"group":0},{"id32":3515520839,"context":1,"group":0},{"id32":2875263080,"context":1,"group":0}]}
 
-assignment_war_801_data = [{"id32":1659376888,"progress":[9039838,10193095,4665875],"expiresIn":458480,"setting":{"type":4,"overrideTitle":"lmao","overrideBrief":"Shit your pants","taskDescription":"","tasks":[{"type":3,"values":[2,1,500000000,0,1,1978117092,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]},{"type":3,"values":[2,1,500000000,0,1,934703916,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]},{"type":3,"values":[2,1,500000000,0,1,4038802832,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]}],"rewards":[{"type":1,"id32":897894480,"amount":55}],"reward":{"type":1,"id32":897894480,"amount":55},"flags":2}}]
+assignment_war_801_data = [{"id32":1659376888,"progress":[9039838,10193095,4665875],"expiresIn":458480,"setting":{"type":4,"overrideTitle":"lmao","overrideBrief":"Shit your pants","taskDescription":"","tasks":[{"type":3,"values":[2,1,500000000,0,1,1978117092,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]},{"type":3,"values":[2,1,500000000,0,1,934703916,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]},{"type":3,"values":[2,1,500000000,0,1,4038802832,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]}],"rewards":[{"type":1,"id32":897894480,"amount":999}],"reward":{"type":1,"id32":897894480,"amount":999},"flags":2}}]
 
 war_status_801_data = {
   "warId": 801,
@@ -118,7 +118,7 @@ war_status_801_data = {
       "owner": 1,
       "health": 6200000,
       "regenPerSecond": 4.1666665,
-      "players": 1000000,
+      "players": 95483745,
       "position": {
         "x": 0,
         "y": 0
@@ -209,42 +209,42 @@ war_status_801_data = {
       "planetIndex": 0,
       "type": 1,
       "count": 2,
-      "race": 2
+      "race": 3
     },
     {
       "id": 1,
       "planetIndex": 1,
-      "type": 2,
+      "type": 1,
       "count": 9,
-      "race": 1
+      "race": 2
     },
     {
       "id": 2,
       "planetIndex": 2,
-      "type": 3,
+      "type": 2,
       "count": 2,
       "race": 3
     },
     {
       "id": 3,
       "planetIndex": 3,
-      "type": 4,
+      "type": 3,
       "count": 3,
-      "race": 4
+      "race": 2
     },
     {
       "id": 4,
       "planetIndex": 4,
-      "type": 5,
+      "type": 4,
       "count": 5,
-      "race": 1
+      "race": 2
     },
     {
       "id": 5,
       "planetIndex": 5,
-      "type": 6,
+      "type": 7,
       "count": 7,
-      "race": 1
+      "race": 3
     }
   ],
   "communityTargets": [],
@@ -437,7 +437,6 @@ reward_entries_data = {"badges":[{"id32":2365423054,"amount":0,"influence":0,"it
 
 season_pass_data = [{"id32": 1929468580,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 2032304616,"medalsSpentMixId": 659494344,"totalCost": 2015,"pageRequirements": [0,8,35,75,150,260,420,650,850,1200],"premiumTokenMixIds": [2032304616]},{"id32": 610512218,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 2021502022,"medalsSpentMixId": 3853908447,"totalCost": 686,"pageRequirements": [0,60,200],"premiumTokenMixIds": [2021502022]},{"id32": 19991972,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 3757336775,"medalsSpentMixId": 2085251110,"totalCost": 672,"pageRequirements": [0,60,230],"premiumTokenMixIds": [3757336775]},{"id32": 3361652624,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 2730511750,"medalsSpentMixId": 3901895556,"totalCost": 699,"pageRequirements": [0,60,230],"premiumTokenMixIds": [2730511750]},{"id32": 2771132378,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 4076697763,"medalsSpentMixId": 1172869905,"totalCost": 669,"pageRequirements": [0,60,230],"premiumTokenMixIds": [4076697763]},{"id32": 1817825735,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 1157246699,"medalsSpentMixId": 224300875,"totalCost": 734,"pageRequirements": [0,100,275],"premiumTokenMixIds": [1157246699]}]
 
-war_summary_801_data = {"galaxy_stats": {"missionsWon": 516915626,"missionsLost": 49978850,"missionTime": 1602984863976,"bugKills": 114715583118,"automatonKills": 47586613494,"illuminateKills": 31216453579,"bulletsFired": 883986437983,"bulletsHit": 992983820819,"timePlayed": 1602984863976,"deaths": 4720354802,"revives": 2,"friendlies": 534024182,"missionSuccessRate": 91,"accurracy": 100},"planets_stats": [{"planetIndex": 0,"missionsWon": 6924460,"missionsLost": 1138687,"missionTime": 23042159337,"bugKills": 4946,"automatonKills": 931,"illuminateKills": 3437754822,"bulletsFired": 17918334728,"bulletsHit": 19138303814,"timePlayed": 23042159337,"deaths": 53426697,"revives": 0,"friendlies": 6883846,"missionSuccessRate": 85,"accurracy": 100},{"planetIndex": 1,"missionsWon": 1,"missionsLost": 1,"missionTime": 2248,"bugKills": 407,"automatonKills": 0,"illuminateKills": 0,"bulletsFired": 938,"bulletsHit": 1102,"timePlayed": 2248,"deaths": 12,"revives": 0,"friendlies": 0,"missionSuccessRate": 50,"accurracy": 100},{"planetIndex": 2,"missionsWon": 1,"missionsLost": 0,"missionTime": 279,"bugKills": 5,"automatonKills": 0,"illuminateKills": 0,"bulletsFired": 22,"bulletsHit": 0,"timePlayed": 279,"deaths": 1,"revives": 0,"friendlies": 0,"missionSuccessRate": 100,"accurracy": 0},{"planetIndex": 3,"missionsWon": 1856565,"missionsLost": 254218,"missionTime": 9084565698,"bugKills": 769653,"automatonKills": 0,"illuminateKills": 1423182791,"bulletsFired": 6891824678,"bulletsHit": 7714520726,"timePlayed": 9084565698,"deaths": 22379103,"revives": 0,"friendlies": 2776111,"missionSuccessRate": 87,"accurracy": 100},{"planetIndex": 4,"missionsWon": 2027646,"missionsLost": 200007,"missionTime": 10011728607,"bugKills": 30518,"automatonKills": 0,"illuminateKills": 1470207899,"bulletsFired": 7136254126,"bulletsHit": 7848778068,"timePlayed": 10011728607,"deaths": 23270412,"revives": 0,"friendlies": 3190167,"missionSuccessRate": 91,"accurracy": 100},{"planetIndex": 5,"missionsWon": 2151713,"missionsLost": 241134,"missionTime": 10145718099,"bugKills": 72121,"automatonKills": 0,"illuminateKills": 1613992951,"bulletsFired": 7490291160,"bulletsHit": 8106616138,"timePlayed": 10145718099,"deaths": 23807060,"revives": 0,"friendlies": 3361351,"missionSuccessRate": 89,"accurracy": 100}]}
 
 @app.route('/api/Configuration/GameClient', methods=['GET'])
 def get_game_configuration():
@@ -613,11 +612,6 @@ def get_season_pass():
     print(f"Request Headers: {request.headers}")
     return jsonify(season_pass_data)
 
-@app.route('/api/Stats/war/801/summary', methods=['GET'])
-def get_war_summary():
-    print(f"Received GET request for /api/Stats/war/801/summary")
-    print(f"Request Headers: {request.headers}")
-    return jsonify(war_summary_801_data)
 
 # missions test
 
