@@ -207,42 +207,42 @@ war_status_801_data = {
     {
       "id": 0,
       "planetIndex": 0,
-      "type": 1,
+      "type": 0,
       "count": 2,
       "race": 3
     },
     {
       "id": 1,
       "planetIndex": 1,
-      "type": 1,
+      "type": 0,
       "count": 9,
       "race": 2
     },
     {
       "id": 2,
       "planetIndex": 2,
-      "type": 2,
+      "type": 0,
       "count": 2,
       "race": 3
     },
     {
       "id": 3,
       "planetIndex": 3,
-      "type": 3,
+      "type": 0,
       "count": 3,
       "race": 2
     },
     {
       "id": 4,
       "planetIndex": 4,
-      "type": 4,
+      "type": 0,
       "count": 5,
       "race": 2
     },
     {
       "id": 5,
       "planetIndex": 5,
-      "type": 7,
+      "type": 0,
       "count": 7,
       "race": 3
     }
