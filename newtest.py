@@ -118,7 +118,7 @@ war_status_801_data = {
       "owner": 1,
       "health": 6200000,
       "regenPerSecond": 4.1666665,
-      "players": 109902,
+      "players": 1000000,
       "position": {
         "x": 0,
         "y": 0
@@ -207,9 +207,9 @@ war_status_801_data = {
     {
       "id": 0,
       "planetIndex": 162,
-      "type": 0,
+      "type": 1,
       "count": 2,
-      "race": 1
+      "race": 2
     },
     {
       "id": 1,
