@@ -206,43 +206,43 @@ war_status_801_data = {
   "campaigns": [
     {
       "id": 0,
-      "planetIndex": 162,
+      "planetIndex": 0,
       "type": 1,
       "count": 2,
       "race": 2
     },
     {
       "id": 1,
-      "planetIndex": 113,
-      "type": 0,
+      "planetIndex": 1,
+      "type": 2,
       "count": 9,
       "race": 1
     },
     {
       "id": 2,
-      "planetIndex": 218,
-      "type": 0,
+      "planetIndex": 2,
+      "type": 3,
       "count": 2,
-      "race": 1
+      "race": 3
     },
     {
       "id": 3,
-      "planetIndex": 175,
-      "type": 0,
+      "planetIndex": 3,
+      "type": 4,
       "count": 3,
-      "race": 1
+      "race": 4
     },
     {
       "id": 4,
-      "planetIndex": 70,
-      "type": 0,
+      "planetIndex": 4,
+      "type": 5,
       "count": 5,
       "race": 1
     },
     {
       "id": 5,
-      "planetIndex": 128,
-      "type": 0,
+      "planetIndex": 5,
+      "type": 6,
       "count": 7,
       "race": 1
     }
