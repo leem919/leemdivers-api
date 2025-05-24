@@ -509,18 +509,6 @@ def lobby_clear():
 
     return jsonify({"status": "success", "message": "Lobby clear successful"}), 200
 
-@app.route('/api/FriendsV2/Block', methods=['POST'])
-def friends_block():
-    print(f"Received POST request for /api/FriendsV2/Block")
-    if not request.is_json:
-        return jsonify({"error": "Request must be JSON"}), 400
-
-    data = request.get_json()
-    print(f"Request Headers: {request.headers}")
-    print(f"InfoLookup Request Data: {data}")
-
-    return jsonify({"status": "success", "message": "Friends block successful"}), 200
-
 @app.route('/api/WarSeason/GalacticWarEffects', methods=['GET'])
 def get_galactic_war_effects():
     print(f"Received GET request for /api/WarSeason/GalacticWarEffects")
