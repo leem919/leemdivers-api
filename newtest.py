@@ -433,6 +433,8 @@ progression_inventory_data = {"items":[{"mixId":2161995568,"amount":0,"isDiscove
 
 progression_customization_data = {"undergarment_type":826373086,"helmet_set":1318035279,"cape_set":1180159923,"armor_set":2006219485,"voice_pack_set":2128091030,"victory_pose_index":1964594095,"banner":1541157352,"shuttle":0,"hellpod":0,"combat_walker_skin":0,"combat_walker_emancipator_skin":0,"titleId32":2471970991}
 
+reward_entries_data = {"badges":[{"id32":2365423054,"amount":0,"influence":0,"itemRewards":[]},{"id32":4184186012,"amount":0,"influence":0,"itemRewards":[]},{"id32":1624799956,"amount":0,"influence":0,"itemRewards":[]},{"id32":334721601,"amount":0,"influence":0,"itemRewards":[]},{"id32":1150782017,"amount":0,"influence":5,"itemRewards":[{"mixId":3608481516,"amount":50}]},{"id32":1497655096,"amount":0,"influence":10,"itemRewards":[{"mixId":3608481516,"amount":100}]},{"id32":3900407341,"amount":0,"influence":20,"itemRewards":[{"mixId":3608481516,"amount":150}]},{"id32":2984854125,"amount":0,"influence":5,"itemRewards":[{"mixId":3608481516,"amount":50}]},{"id32":106414693,"amount":0,"influence":10,"itemRewards":[{"mixId":3608481516,"amount":100}]},{"id32":3412826211,"amount":0,"influence":20,"itemRewards":[{"mixId":3608481516,"amount":150}]},{"id32":1595769879,"amount":0,"influence":5,"itemRewards":[{"mixId":3608481516,"amount":50}]},{"id32":2701252726,"amount":0,"influence":10,"itemRewards":[{"mixId":3608481516,"amount":100}]},{"id32":4283980414,"amount":0,"influence":20,"itemRewards":[{"mixId":3608481516,"amount":150}]},{"id32":889185878,"amount":0,"influence":100,"itemRewards":[{"mixId":3608481516,"amount":500}]},{"id32":3839642669,"amount":0,"influence":100,"itemRewards":[{"mixId":3608481516,"amount":500}]},{"id32":1748229498,"amount":0,"influence":50,"itemRewards":[{"mixId":3608481516,"amount":200}]},{"id32":3673690865,"amount":0,"influence":50,"itemRewards":[{"mixId":3608481516,"amount":200}]},{"id32":396353427,"amount":0,"influence":40,"itemRewards":[{"mixId":3608481516,"amount":200}]},{"id32":185689788,"amount":0,"influence":40,"itemRewards":[{"mixId":3608481516,"amount":200}]},{"id32":1265668144,"amount":0,"influence":40,"itemRewards":[{"mixId":3608481516,"amount":200}]},{"id32":3071768642,"amount":0,"influence":20,"itemRewards":[{"mixId":3608481516,"amount":100}]},{"id32":4140461052,"amount":0,"influence":100,"itemRewards":[{"mixId":3608481516,"amount":500}]},{"id32":357290428,"amount":0,"influence":25,"itemRewards":[{"mixId":3608481516,"amount":125}]},{"id32":3181424819,"amount":0,"influence":25,"itemRewards":[{"mixId":3608481516,"amount":125}]},{"id32":738696266,"amount":0,"influence":25,"itemRewards":[{"mixId":3608481516,"amount":125}]},{"id32":792703122,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":1}]},{"id32":201763195,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":2}]},{"id32":3154752032,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":3}]},{"id32":3661601579,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":2}]},{"id32":64984334,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":4}]},{"id32":137631288,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":3}]},{"id32":1382575844,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":5}]},{"id32":2462669900,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":6}]},{"id32":1495751876,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":4}]},{"id32":280848384,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":6}]},{"id32":2320144617,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":8}]},{"id32":4142807363,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":5}]},{"id32":1028127799,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":7}]},{"id32":1923384995,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":9}]},{"id32":1376484766,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":6}]},{"id32":283480591,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":8}]},{"id32":1945945030,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":10}]},{"id32":1265652808,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":7}]},{"id32":658544424,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":10}]},{"id32":2283307406,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":12}]},{"id32":1039359204,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":8}]},{"id32":3053361929,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":11}]},{"id32":3532218295,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":14}]},{"id32":2183770126,"amount":0,"influence":0,"itemRewards":[{"mixId":3608481516,"amount":-25}]},{"id32":3973473708,"amount":0,"influence":20,"itemRewards":[{"mixId":3608481516,"amount":50}]},{"id32":1449100876,"amount":0,"influence":1,"itemRewards":[{"mixId":3608481516,"amount":4}]},{"id32":2328168609,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":9}]},{"id32":1544112617,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":12}]},{"id32":3041491160,"amount":0,"influence":0,"itemRewards":[{"mixId":897894480,"amount":15}]}],"multipliers":[{"id32":540020798,"factor":1,"influenceFactor":1},{"id32":357436400,"factor":0,"influenceFactor":0},{"id32":1029670384,"factor":1,"influenceFactor":1},{"id32":2459419623,"factor":1,"influenceFactor":1},{"id32":2389643433,"factor":1.25,"influenceFactor":1.25},{"id32":4122185694,"factor":1.5,"influenceFactor":1.5},{"id32":33707031,"factor":1.75,"influenceFactor":1.75},{"id32":1237009911,"factor":2,"influenceFactor":2},{"id32":1155577500,"factor":2.5,"influenceFactor":2.5},{"id32":851354768,"factor":3,"influenceFactor":3},{"id32":1714937842,"factor":3.5,"influenceFactor":3.5},{"id32":1551907567,"factor":4,"influenceFactor":4},{"id32":2736093795,"factor":4.5,"influenceFactor":4.5},{"id32":2607705626,"factor":5,"influenceFactor":5},{"id32":3068507239,"factor":0.5,"influenceFactor":0.5}]}
+
 @app.route('/api/Configuration/GameClient', methods=['GET'])
 def get_game_configuration():
     print(f"Received GET request for /api/Configuration/GameClient")
@@ -601,11 +603,29 @@ def get_progression_inventory():
     print(f"Request Headers: {request.headers}")
     return jsonify(progression_inventory_data)
 
+@app.route('/api/Monetization/Steam/RedeemStoreContent', methods=['POST'])
+def monetization_content():
+    print(f"Received POST request for /api/Monetization/Steam/RedeemStoreContent")
+    if not request.is_json:
+        return jsonify({"error": "Request must be JSON"}), 400
+
+    data = request.get_json()
+    print(f"Request Headers: {request.headers}")
+    print(f"InfoLookup Request Data: {data}")
+
+    return jsonify({"status": "success", "message": "Redeem successful"}), 200
+
 @app.route('/api/Progression/customization', methods=['GET'])
 def get_progression_customization():
     print(f"Received GET request for /api/Progression/customization")
     print(f"Request Headers: {request.headers}")
     return jsonify(progression_customization_data)
+
+@app.route('/api/Mission/RewardEntries', methods=['GET'])
+def get_reward_entries():
+    print(f"Received GET request for /api/Mission/RewardEntries")
+    print(f"Request Headers: {request.headers}")
+    return jsonify(reward_entries_data)
 
 if __name__ == '__main__':
     print("Starting mock Helldivers API server with HTTPS...")
