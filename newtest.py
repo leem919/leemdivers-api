@@ -279,7 +279,7 @@ war_status_801_data = {
   "planetRegions": [
     {
       "planetIndex": 0,
-      "regionIndex": 1,
+      "regionIndex": 0,
       "owner": 1,
       "health": 483101,
       "regerPerSecond": -11,
@@ -342,7 +342,7 @@ war_status_801_data = {
   "globalEvents": [
     {
       "eventId": 1499462,
-      "id32": 3667530279,
+      "id32": 3667530278,
       "portraitId32": 0,
       "title": "",
       "titleId32": 0,
@@ -359,12 +359,12 @@ war_status_801_data = {
     },
     {
       "eventId": 1499149,
-      "id32": 4067884805,
+      "id32": 4067884804,
       "portraitId32": 0,
       "title": "LEEMDIVERS SERVER",
-      "titleId32": 2998873950,
+      "titleId32": 2998873949,
       "message": "This is a test.",
-      "messageId32": 3195688721,
+      "messageId32": 3195688720,
       "race": 1,
       "flag": 2,
       "introMediaId32": 0,
@@ -375,13 +375,13 @@ war_status_801_data = {
       "expireTime": 40245315
     },
     {
-      "eventId": 1499150,
-      "id32": 182086879,
+      "eventId": 1499149,
+      "id32": 182086878,
       "portraitId32": 0,
       "title": "test",
-      "titleId32": 2908633975,
+      "titleId32": 2908633974,
       "message": "test",
-      "messageId32": 2369697708,
+      "messageId32": 2369697707,
       "race": 1,
       "flag": 1,
       "introMediaId32": 0,
