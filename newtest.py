@@ -425,8 +425,6 @@ reward_entries_data = {"badges":[{"id32":2365423054,"amount":0,"influence":0,"it
 
 season_pass_data = [{"id32": 1929468580,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 2032304616,"medalsSpentMixId": 659494344,"totalCost": 2015,"pageRequirements": [0,8,35,75,150,260,420,650,850,1200],"premiumTokenMixIds": [2032304616]}]
 
-war_summary_801_data = {"galaxy_stats": {"missionsWon": 1,"missionsLost": 1,"missionTime": 1,"bugKills": 1,"automatonKills": 1,"illuminateKills": 1,"bulletsFired": 1,"bulletsHit": 1,"timePlayed": 1,"deaths": 1,"revives": 2,"friendlies": 1,"missionSuccessRate": 91,"accurracy": 100},"planets_stats": [{"planetIndex": 0,"missionsWon": 1,"missionsLost": 1,"missionTime": 1,"bugKills": 1,"automatonKills": 1,"illuminateKills": 1,"bulletsFired": 1,"bulletsHit": 1,"timePlayed": 1,"deaths": 1,"revives": 0,"friendlies": 1,"missionSuccessRate": 85,"accurracy": 100},{"planetIndex": 1,"missionsWon": 1,"missionsLost": 1,"missionTime": 1,"bugKills": 1,"automatonKills": 0,"illuminateKills": 0,"bulletsFired": 1,"bulletsHit": 1,"timePlayed": 1,"deaths": 1,"revives": 0,"friendlies": 0,"missionSuccessRate": 50,"accurracy": 100},{"planetIndex": 2,"missionsWon": 1,"missionsLost": 0,"missionTime": 1,"bugKills": 1,"automatonKills": 0,"illuminateKills": 0,"bulletsFired": 1,"bulletsHit": 0,"timePlayed": 1,"deaths": 1,"revives": 0,"friendlies": 0,"missionSuccessRate": 100,"accurracy": 0},{"planetIndex": 3,"missionsWon": 1,"missionsLost": 1,"missionTime": 1,"bugKills": 1,"automatonKills": 0,"illuminateKills": 1,"bulletsFired": 1,"bulletsHit": 1,"timePlayed": 1,"deaths": 1,"revives": 0,"friendlies": 1,"missionSuccessRate": 87,"accurracy": 100},{"planetIndex": 4,"missionsWon": 1,"missionsLost": 1,"missionTime": 1,"bugKills": 1,"automatonKills": 0,"illuminateKills": 1,"bulletsFired": 1,"bulletsHit": 1,"timePlayed": 1,"deaths": 1,"revives": 0,"friendlies": 1,"missionSuccessRate": 91,"accurracy": 100},{"planetIndex": 5,"missionsWon": 1,"missionsLost": 1,"missionTime": 1,"bugKills": 1,"automatonKills": 0,"illuminateKills": 1,"bulletsFired": 1,"bulletsHit": 1,"timePlayed": 1,"deaths": 1,"revives": 0,"friendlies": 1,"missionSuccessRate": 89,"accurracy": 100}]}
-
 @app.route('/api/Configuration/GameClient', methods=['GET'])
 def get_game_configuration():
     print(f"Received GET request for /api/Configuration/GameClient")
@@ -601,42 +599,7 @@ def get_season_pass():
     print(f"Request Headers: {request.headers}")
     return jsonify(season_pass_data)
 
-
-# non-requirements tests
-
-@app.route('/api/Stats/war/801/summary', methods=['GET'])
-def get_war_summary():
-    print(f"Received GET request for /api/Stats/war/801/summary")
-    print(f"Request Headers: {request.headers}")
-    return jsonify(war_summary_801_data)
-
-# non-requirements successes
-
-@app.route('/api/Operation/Create', methods=['POST'])
-def operation_create():
-    print(f"Received POST request for /api/Operation/Create")
-    if not request.is_json:
-        return jsonify({"error": "Request must be JSON"}), 400
-
-    data = request.get_json()
-    print(f"Request Headers: {request.headers}")
-    print(f"InfoLookup Request Data: {data}")
-
-    return jsonify({"status": "success", "message": "Operation create successful"}), 200
-
-@app.route('/api/Account/ReportPosition', methods=['POST'])
-def account_report_position():
-    print(f"Received POST request for /api/Account/ReportPosition")
-    if not request.is_json:
-        return jsonify({"error": "Request must be JSON"}), 400
-
-    data = request.get_json()
-    print(f"Request Headers: {request.headers}")
-    print(f"InfoLookup Request Data: {data}")
-
-    return jsonify({"status": "success", "message": "Report position successful"}), 200
-
-# older requirements tests
+# older requirement test
 
 @app.route('/api/Progression/items/discounts/801', methods=['GET'])
 def get_items_discounts():
