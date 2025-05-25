@@ -427,8 +427,6 @@ season_pass_data = [{"id32": 1929468580,"medalsTotalMixId": 2398121714,"medalsCo
 
 @app.route('/api/Configuration/GameClient', methods=['GET'])
 def get_game_configuration():
-    print(f"Received GET request for /api/Configuration/GameClient")
-    print(f"Request Headers: {request.headers}")
 
     response = make_response(jsonify(game_client_config_data))
     response.headers['Content-Type'] = 'application/json; charset=utf-8'
@@ -438,13 +436,10 @@ def get_game_configuration():
 
 @app.route('/api/Account/Login', methods=['POST'])
 def account_login():
-    print(f"Received POST request for /api/Account/Login")
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 400
 
     data = request.get_json()
-    print(f"Request Headers: {request.headers}")
-    print(f"Login Request Data: {data}")
 
     return jsonify({"status": "success", "message": "Login successful"}), 200
 
@@ -454,8 +449,6 @@ def war_id():
 
 @app.route('/api/WarSeason/801/warinfo', methods=['GET'])
 def get_war_info_801():
-    print(f"Received GET request for /api/WarSeason/801/warinfo")
-    print(f"Request Headers: {request.headers}")
     return jsonify(war_info_801_data)
 
 @app.route('/api/WarSeason/801/timeSinceStart', methods=['GET'])
@@ -469,144 +462,106 @@ def get_time_since_war_start():
 
     seconds_since_start = int(time_difference.total_seconds())
 
-    print(f"Received GET request for /api/WarSeason/801/timeSinceStart")
-    print(f"Request Headers: {request.headers}")
     return jsonify({"secondsSinceStart": seconds_since_start})
 
 @app.route('/api/Account/InfoLookup', methods=['POST'])
 def account_info_lookup():
-    print(f"Received POST request for /api/Account/InfoLookup")
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 400
 
     data = request.get_json()
-    print(f"Request Headers: {request.headers}")
-    print(f"InfoLookup Request Data: {data}")
 
     return jsonify({"status": "success", "message": "Info lookup successful"}), 200
 
 @app.route('/api/lobby/clear', methods=['POST'])
 def lobby_clear():
-    print(f"Received POST request for /api/lobby/clear")
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 400
 
     data = request.get_json()
-    print(f"Request Headers: {request.headers}")
-    print(f"InfoLookup Request Data: {data}")
 
     return jsonify({"status": "success", "message": "Lobby clear successful"}), 200
 
 @app.route('/api/WarSeason/GalacticWarEffects', methods=['GET'])
 def get_galactic_war_effects():
-    print(f"Received GET request for /api/WarSeason/GalacticWarEffects")
-    print(f"Request Headers: {request.headers}")
     return jsonify(galactic_war_effects_data)
 
 @app.route('/api/WarSeason/NewsTicker', methods=['GET'])
 def get_news_ticker():
-    print(f"Received GET request for /api/WarSeason/NewsTicker")
-    print(f"Request Headers: {request.headers}")
     return jsonify(news_ticker_data)
 
 @app.route('/api/v2/Assignment/War/801', methods=['GET'])
 def get_assignment_war_801():
-    print(f"Received GET request for /api/v2/Assignment/War/801")
-    print(f"Request Headers: {request.headers}")
     return jsonify(assignment_war_801_data)
 
 @app.route('/api/WarSeason/801/Status', methods=['GET'])
 def get_war_status_801():
-    print(f"Received GET request for /api/WarSeason/801/Status")
-    print(f"Request Headers: {request.headers}")
     return jsonify(war_status_801_data)
 
 @app.route('/api/NewsFeed/801', methods=['GET'])
 def get_news_feed_801():
-    print(f"Received GET request for /api/NewsFeed/801")
-    print(f"Request Headers: {request.headers}")
     return jsonify(news_feed_801_data)
 
 @app.route('/api/Operation', methods=['GET'])
 def get_operation_ids():
-    print(f"Received GET request for /api/Operation")
-    print(f"Request Headers: {request.headers}")
     return jsonify(operations_data)
 
 @app.route('/api/Operation/Abandon', methods=['POST'])
 def operation_abandon():
-    print(f"Received POST request for /api/Operation/Abandon")
     if not request.is_json:
         return jsonify({"error": "Request must be JSON"}), 400
 
     data = request.get_json()
-    print(f"Request Headers: {request.headers}")
-    print(f"InfoLookup Request Data: {data}")
 
     return jsonify({"status": "success", "message": "Operation abandon successful"}), 200
 
 @app.route('/api/Progression/ItemPackages', methods=['GET'])
 def get_item_packages():
-    print(f"Received GET request for /api/Progression/ItemPackages")
-    print(f"Request Headers: {request.headers}")
     return jsonify(item_packages_data)
 
 @app.route('/api/Progression/ProgressionPackages', methods=['GET'])
 def get_progression_packages():
-    print(f"Received GET request for /api/Progression/ProgressionPackages")
-    print(f"Request Headers: {request.headers}")
     return jsonify(progression_packages_data)
 
 @app.route('/api/Progression/items', methods=['GET'])
 def get_progression_items():
-    print(f"Received GET request for /api/Progression/items")
-    print(f"Request Headers: {request.headers}")
     return jsonify(progression_items_data)
 
 @app.route('/api/Progression/levelspec', methods=['GET'])
 def get_level_spec():
-    print(f"Received GET request for /api/Progression/levelspec")
-    print(f"Request Headers: {request.headers}")
     return jsonify(level_spec_data)
 
 @app.route('/api/Progression', methods=['GET'])
 def get_progression():
-    print(f"Received GET request for /api/Progression")
-    print(f"Request Headers: {request.headers}")
     return jsonify(progression_data)
 
 @app.route('/api/Progression/inventory', methods=['GET'])
 def get_progression_inventory():
-    print(f"Received GET request for /api/Progression/inventory")
-    print(f"Request Headers: {request.headers}")
     return jsonify(progression_inventory_data)
 
 @app.route('/api/Progression/customization', methods=['GET'])
 def get_progression_customization():
-    print(f"Received GET request for /api/Progression/customization")
-    print(f"Request Headers: {request.headers}")
     return jsonify({})
 
 @app.route('/api/Mission/RewardEntries', methods=['GET'])
 def get_reward_entries():
-    print(f"Received GET request for /api/Mission/RewardEntries")
-    print(f"Request Headers: {request.headers}")
     return jsonify(reward_entries_data)
 
 @app.route('/api/SeasonPass', methods=['GET'])
 def get_season_pass():
-    print(f"Received GET request for /api/SeasonPass")
-    print(f"Request Headers: {request.headers}")
     return jsonify(season_pass_data)
 
 # older requirement test
 
 @app.route('/api/Progression/items/discounts/801', methods=['GET'])
 def get_items_discounts():
-    print(f"Received GET request for /api/Progression/items/discounts/801")
-    print(f"Request Headers: {request.headers}")
     return jsonify([])
 
+# browser result
+
+@app.route('/', methods=['GET'])
+def generic_message():
+    return jsonify({"message": "leemdivers-api running on this host"})
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=443)
