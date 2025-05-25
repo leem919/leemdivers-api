@@ -654,7 +654,7 @@ def account_report_position():
 def get_items_discounts():
     print(f"Received GET request for /api/Progression/items/discounts/801")
     print(f"Request Headers: {request.headers}")
-    return jsonify([]])
+    return jsonify([])
 
 
 if __name__ == '__main__':
