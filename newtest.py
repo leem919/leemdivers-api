@@ -587,7 +587,7 @@ def get_progression_inventory():
 def get_progression_customization():
     print(f"Received GET request for /api/Progression/customization")
     print(f"Request Headers: {request.headers}")
-    return jsonify({}})
+    return jsonify({})
 
 @app.route('/api/Mission/RewardEntries', methods=['GET'])
 def get_reward_entries():
