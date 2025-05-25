@@ -288,8 +288,8 @@ war_status_801_data = {
       "players": 0
     },
     {
-      "planetIndex": 0,
-      "regionIndex": 2,
+      "planetIndex": 1,
+      "regionIndex": 1,
       "owner": 1,
       "health": 240494,
       "regerPerSecond": -8,
@@ -298,54 +298,44 @@ war_status_801_data = {
       "players": 0
     },
     {
-      "planetIndex": 0,
-      "regionIndex": 3,
+      "planetIndex": 2,
+      "regionIndex": 1,
       "owner": 1,
       "health": 600000,
       "regerPerSecond": 0,
       "availabilityFactor": 1,
-      "isAvailable": False,
+      "isAvailable": True,
       "players": 0
     },
     {
-      "planetIndex": 0,
-      "regionIndex": 4,
+      "planetIndex": 3,
+      "regionIndex": 1,
       "owner": 1,
       "health": 600000,
       "regerPerSecond": 0,
       "availabilityFactor": 1,
-      "isAvailable": False,
+      "isAvailable": True,
       "players": 0
     },
     {
-      "planetIndex": 0,
-      "regionIndex": 5,
+      "planetIndex": 4,
+      "regionIndex": 1,
       "owner": 1,
       "health": 600000,
       "regerPerSecond": 0,
       "availabilityFactor": 1,
-      "isAvailable": False,
+      "isAvailable": True,
       "players": 0
     },
     {
-      "planetIndex": 0,
-      "regionIndex": 6,
+      "planetIndex": 5,
+      "regionIndex": 1,
       "owner": 1,
       "health": 379932,
       "regerPerSecond": -8,
       "availabilityFactor": 1,
       "isAvailable": True,
       "players": 0
-    },
-    {
-      "planetIndex": 0,
-      "regionIndex": 0,
-      "owner": 4,
-      "health": 600000,
-      "regerPerSecond": -13,
-      "availabilityFactor": 1,
-      "isAvailable": False,
-      "players": 2
     }
   ],
   "activeElectionPolicyEffects": [],
