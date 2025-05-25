@@ -648,7 +648,14 @@ def account_report_position():
 
     return jsonify({"status": "success", "message": "Report position successful"}), 200
 
+# older requirements tests
+
+@app.route('/api/Progression/items/discounts/801', methods=['GET'])
+def get_items_discounts():
+    print(f"Received GET request for /api/Progression/items/discounts/801")
+    print(f"Request Headers: {request.headers}")
+    return jsonify([]])
+
 
 if __name__ == '__main__':
-    print("Starting mock Helldivers API server with HTTPS...")
     app.run(debug=True, host='0.0.0.0', port=443)
