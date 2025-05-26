@@ -215,7 +215,7 @@ war_status_801_data = {
   "planetStatus": [
     {
       "index": 0,
-      "owner": 4,
+      "owner": 2,
       "health": 500000,
       "regenPerSecond": 4.1666665,
       "players": 0,
@@ -226,7 +226,7 @@ war_status_801_data = {
     },
     {
       "index": 1,
-      "owner": 2,
+      "owner": 4,
       "health": 500000,
       "regenPerSecond": 4.1666665,
       "players": 0,
@@ -270,7 +270,7 @@ war_status_801_data = {
     },
     {
       "index": 5,
-      "owner": 4,
+      "owner": 2,
       "health": 500000,
       "regenPerSecond": 208.33333,
       "players": 0,
