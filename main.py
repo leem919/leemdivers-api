@@ -109,13 +109,15 @@ news_ticker_data = {"messages":[{"id32":2399790664,"context":1,"group":0},{"id32
 
 assignment_war_801_data = [
   {
-    "id32": 1659376888,
+    "id32": 3115385397,
     "progress": [
-      9039838,
-      10193095,
-      4665875
+      0,
+      1,
+      0,
+      0,
+      1
     ],
-    "expiresIn": 458480,
+    "expiresIn": 593840,
     "setting": {
       "type": 4,
       "overrideTitle": "MAJOR ORDER",
@@ -123,82 +125,66 @@ assignment_war_801_data = [
       "taskDescription": "",
       "tasks": [
         {
-          "type": 3,
+          "type": 13,
           "values": [
-            2,
             1,
-            500000000,
-            0,
             1,
-            1978117092,
-            0,
-            0,
-            0,
-            0
+            1
           ],
           "valueTypes": [
-            1,
-            2,
             3,
-            4,
-            6,
-            5,
-            8,
-            9,
             11,
             12
           ]
         },
         {
-          "type": 3,
+          "type": 13,
           "values": [
-            2,
             1,
-            500000000,
-            0,
             1,
-            934703916,
-            0,
-            0,
-            0,
-            0
+            2
           ],
           "valueTypes": [
-            1,
-            2,
             3,
-            4,
-            6,
-            5,
-            8,
-            9,
             11,
             12
           ]
         },
         {
-          "type": 3,
+          "type": 13,
           "values": [
-            2,
             1,
-            500000000,
-            0,
             1,
-            4038802832,
-            0,
-            0,
-            0,
-            0
+            3
           ],
           "valueTypes": [
-            1,
-            2,
             3,
-            4,
-            6,
-            5,
-            8,
-            9,
+            11,
+            12
+          ]
+        },
+        {
+          "type": 13,
+          "values": [
+            1,
+            1,
+            4
+          ],
+          "valueTypes": [
+            3,
+            11,
+            12
+          ]
+        },
+        {
+          "type": 13,
+          "values": [
+            1,
+            1,
+            5
+          ],
+          "valueTypes": [
+            3,
             11,
             12
           ]
@@ -216,7 +202,7 @@ assignment_war_801_data = [
         "id32": 897894480,
         "amount": 999
       },
-      "flags": 2
+      "flags": 1
     }
   }
 ]
@@ -232,7 +218,7 @@ war_status_801_data = {
       "owner": 1,
       "health": 6200000,
       "regenPerSecond": 4.1666665,
-      "players": 95483745,
+      "players": 0,
       "position": {
         "x": 0,
         "y": 0
@@ -265,7 +251,7 @@ war_status_801_data = {
       "owner": 4,
       "health": 1000000,
       "regenPerSecond": 208.33333,
-      "players": 65,
+      "players": 0,
       "position": {
         "x": 0.12536779,
         "y": 0.11821219
@@ -276,7 +262,7 @@ war_status_801_data = {
       "owner": 4,
       "health": 1000000,
       "regenPerSecond": 208.33333,
-      "players": 184,
+      "players": 0,
       "position": {
         "x": 0.10280278,
         "y": 0.05765711
@@ -287,7 +273,7 @@ war_status_801_data = {
       "owner": 4,
       "health": 1000000,
       "regenPerSecond": 208.33333,
-      "players": 101,
+      "players": 0,
       "position": {
         "x": 0.15988354,
         "y": 0.043583166
