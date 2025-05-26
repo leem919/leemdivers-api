@@ -107,7 +107,119 @@ galactic_war_effects_data = [
 
 news_ticker_data = {"messages":[{"id32":2399790664,"context":1,"group":0},{"id32":2061243786,"context":1,"group":0},{"id32":3667104994,"context":1,"group":0},{"id32":422331606,"context":1,"group":1},{"id32":627359968,"context":1,"group":1},{"id32":3323676179,"context":1,"group":0},{"id32":4217315838,"context":1,"group":0},{"id32":4141672169,"context":1,"group":0},{"id32":1511706843,"context":1,"group":0},{"id32":677322851,"context":1,"group":0},{"id32":893408910,"context":1,"group":0},{"id32":766228818,"context":1,"group":0},{"id32":2552962615,"context":1,"group":2},{"id32":1542765264,"context":1,"group":2},{"id32":983707629,"context":1,"group":0},{"id32":2801833803,"context":1,"group":3},{"id32":2706258613,"context":1,"group":3},{"id32":3262302717,"context":1,"group":0},{"id32":421418845,"context":1,"group":0},{"id32":2464718481,"context":1,"group":0},{"id32":450787924,"context":1,"group":0},{"id32":1401708733,"context":1,"group":4},{"id32":2237848324,"context":1,"group":4},{"id32":2121224478,"context":1,"group":0},{"id32":110359831,"context":1,"group":5},{"id32":2077769934,"context":1,"group":5},{"id32":1918416101,"context":1,"group":0},{"id32":1898505845,"context":1,"group":0},{"id32":2902232420,"context":1,"group":0},{"id32":2782937074,"context":1,"group":0},{"id32":1391161752,"context":1,"group":0},{"id32":980743299,"context":1,"group":0},{"id32":1006242818,"context":1,"group":0},{"id32":1293830708,"context":1,"group":0},{"id32":3699613863,"context":1,"group":0},{"id32":3547528638,"context":1,"group":0},{"id32":4287360836,"context":1,"group":0},{"id32":968713913,"context":1,"group":0},{"id32":1214176856,"context":1,"group":0},{"id32":2144846208,"context":1,"group":7},{"id32":2365925959,"context":1,"group":0},{"id32":3994324289,"context":1,"group":7},{"id32":2616020441,"context":1,"group":0},{"id32":3279518460,"context":1,"group":0},{"id32":2683120236,"context":1,"group":0},{"id32":574562412,"context":1,"group":0},{"id32":2222856057,"context":1,"group":0},{"id32":1865943011,"context":1,"group":8},{"id32":199902803,"context":1,"group":8},{"id32":3412098611,"context":1,"group":0},{"id32":478168078,"context":1,"group":0},{"id32":257436714,"context":1,"group":0},{"id32":4010359064,"context":1,"group":0},{"id32":3933634258,"context":1,"group":0},{"id32":368572468,"context":1,"group":0},{"id32":1820072234,"context":1,"group":0},{"id32":1402635182,"context":1,"group":0},{"id32":786752156,"context":1,"group":0},{"id32":1307362764,"context":1,"group":0},{"id32":358548648,"context":1,"group":0},{"id32":3705692862,"context":2,"group":0},{"id32":2504204569,"context":1,"group":0},{"id32":1752849254,"context":1,"group":0},{"id32":81523500,"context":1,"group":0},{"id32":3744612820,"context":1,"group":0},{"id32":1248813848,"context":1,"group":0},{"id32":234584469,"context":1,"group":0},{"id32":1698977452,"context":1,"group":0},{"id32":1784509355,"context":1,"group":0},{"id32":1233597562,"context":1,"group":0},{"id32":1916939864,"context":1,"group":0},{"id32":4130639501,"context":1,"group":0},{"id32":3719011487,"context":1,"group":0},{"id32":382654467,"context":1,"group":0},{"id32":781677224,"context":1,"group":0},{"id32":1287780346,"context":1,"group":0},{"id32":1334351473,"context":1,"group":0},{"id32":3821064877,"context":1,"group":0},{"id32":3115257147,"context":1,"group":0},{"id32":98611233,"context":1,"group":0},{"id32":836288058,"context":1,"group":0},{"id32":900097455,"context":1,"group":0},{"id32":4149219876,"context":1,"group":0},{"id32":1739141267,"context":1,"group":0},{"id32":2435973138,"context":1,"group":0},{"id32":2989731610,"context":1,"group":0},{"id32":3515520839,"context":1,"group":0},{"id32":2875263080,"context":1,"group":0}]}
 
-assignment_war_801_data = [{"id32":1659376888,"progress":[9039838,10193095,4665875],"expiresIn":458480,"setting":{"type":4,"overrideTitle":"MAJOR ORDER","overrideBrief":"Shit your pants","taskDescription":"","tasks":[{"type":3,"values":[2,1,500000000,0,1,1978117092,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]},{"type":3,"values":[2,1,500000000,0,1,934703916,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]},{"type":3,"values":[2,1,500000000,0,1,4038802832,0,0,0,0],"valueTypes":[1,2,3,4,6,5,8,9,11,12]}],"rewards":[{"type":1,"id32":897894480,"amount":999}],"reward":{"type":1,"id32":897894480,"amount":999},"flags":2}}]
+assignment_war_801_data = [
+  {
+    "id32": 1659376888,
+    "progress": [
+      9039838,
+      10193095,
+      4665875
+    ],
+    "expiresIn": 458480,
+    "setting": {
+      "type": 4,
+      "overrideTitle": "MAJOR ORDER",
+      "overrideBrief": "Shit your pants",
+      "taskDescription": "",
+      "tasks": [
+        {
+          "type": 3,
+          "values": [
+            2,
+            1,
+            500000000,
+            0,
+            1,
+            1978117092,
+            0,
+            0,
+            0,
+            0
+          ],
+          "valueTypes": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            8,
+            9,
+            11,
+            12
+          ]
+        },
+        {
+          "type": 3,
+          "values": [
+            2,
+            1,
+            500000000,
+            0,
+            1,
+            934703916,
+            0,
+            0,
+            0,
+            0
+          ],
+          "valueTypes": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            8,
+            9,
+            11,
+            12
+          ]
+        },
+        {
+          "type": 3,
+          "values": [
+            2,
+            1,
+            500000000,
+            0,
+            1,
+            4038802832,
+            0,
+            0,
+            0,
+            0
+          ],
+          "valueTypes": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            8,
+            9,
+            11,
+            12
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": 1,
+          "id32": 897894480,
+          "amount": 999
+        }
+      ],
+      "reward": {
+        "type": 1,
+        "id32": 897894480,
+        "amount": 999
+      },
+      "flags": 2
+    }
+  }
+]
 
 war_status_801_data = {
   "warId": 801,
@@ -343,55 +455,59 @@ war_status_801_data = {
   "activeElectionPolicyEffects": [],
   "globalEvents": [
     {
-      "eventId": 1499462,
-      "id32": 3667530278,
+      "eventId": 1499443,
+      "id32": 0,
+      "portraitId32": 0,
+      "title": "LEEMDIVERS SERVER",
+      "titleId32": 2908633975,
+      "message": "This is a test.",
+      "messageId32": 2427963632,
+      "race": 1,
+      "flag": 1,
+      "introMediaId32": 2999528160,
+      "outroMediaId32": 0,
+      "assignmentId32": 4108768873,
+      "effectIds": [],
+      "planetIndices": [],
+      "expireTime": 38026800
+    },
+    {
+      "eventId": 1499445,
+      "id32": 3385427905,
       "portraitId32": 0,
       "title": "",
       "titleId32": 0,
       "message": "",
       "messageId32": 0,
       "race": 0,
-      "flag": 4,
+      "flag": 0,
       "introMediaId32": 0,
       "outroMediaId32": 0,
       "assignmentId32": 0,
-      "effectIds": [],
+      "effectIds": [
+        1265
+      ],
       "planetIndices": [],
-      "expireTime": 40791480
+      "expireTime": 38025784
     },
     {
-      "eventId": 1499149,
-      "id32": 4067884804,
+      "eventId": 1499446,
+      "id32": 2335721247,
       "portraitId32": 0,
-      "title": "LEEMDIVERS SERVER",
-      "titleId32": 2998873949,
-      "message": "This is a test.",
-      "messageId32": 3195688720,
-      "race": 1,
-      "flag": 2,
+      "title": "",
+      "titleId32": 0,
+      "message": "",
+      "messageId32": 0,
+      "race": 0,
+      "flag": 0,
       "introMediaId32": 0,
       "outroMediaId32": 0,
       "assignmentId32": 0,
-      "effectIds": [],
+      "effectIds": [
+        1267
+      ],
       "planetIndices": [],
-      "expireTime": 40245315
-    },
-    {
-      "eventId": 1499149,
-      "id32": 182086878,
-      "portraitId32": 0,
-      "title": "test",
-      "titleId32": 2908633974,
-      "message": "test",
-      "messageId32": 2369697707,
-      "race": 1,
-      "flag": 1,
-      "introMediaId32": 0,
-      "outroMediaId32": 0,
-      "assignmentId32": 0,
-      "effectIds": [],
-      "planetIndices": [],
-      "expireTime": 40425270
+      "expireTime": 38025977
     }
   ],
   "superEarthWarResults": [],
