@@ -308,15 +308,15 @@ war_status_801_data = {
       "id": 0,
       "planetIndex": 0,
       "type": 0,
-      "count": 2,
-      "race": 4
+      "count": 13,
+      "race": 2
     },
     {
       "id": 1,
       "planetIndex": 1,
       "type": 0,
-      "count": 9,
-      "race": 2
+      "count": 7,
+      "race": 4
     },
     {
       "id": 2,
@@ -343,8 +343,8 @@ war_status_801_data = {
       "id": 5,
       "planetIndex": 5,
       "type": 0,
-      "count": 7,
-      "race": 4
+      "count": 9,
+      "race": 2
     }
   ],
   "communityTargets": [],
