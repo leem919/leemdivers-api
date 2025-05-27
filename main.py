@@ -471,7 +471,7 @@ reward_entries_data = {"badges":[{"id32":2365423054,"amount":0,"influence":0,"it
 
 season_pass_data = [{"id32": 1929468580,"medalsTotalMixId": 2398121714,"medalsConsumableMixId": 1276729503,"premiumTokenMixId": 2032304616,"medalsSpentMixId": 659494344,"totalCost": 2015,"pageRequirements": [0,8,35,75,150,260,420,650,850,1200],"premiumTokenMixIds": [2032304616]}]
 
-news_feed_801_data = [{"id":2797,"published":39936340,"type":0,"tagIds":[],"message":"LEEMDIVERS SERVER\nThis is a test."}]
+news_feed_801_data = [{"id":2797,"published":39936341,"type":0,"tagIds":[],"message":"LEEMDIVERS SERVER\nThis is a test."},{"id":3200,"published":39992940,"type":0,"tagIds":[],"message":"<i=3>OFFENSIVE SHIFT</i>\n\nIntel indicates the Illuminate have shifted their forces away from <i=1>Remembrance.</i>"}]
 
 # required endpoints
 
