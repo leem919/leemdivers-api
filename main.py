@@ -3,7 +3,6 @@ import json
 from datetime import datetime, timezone
 
 app = Flask(__name__)
-const port = process.env.PORT || 443
 
 # data storage
 
