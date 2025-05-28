@@ -19,8 +19,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 443
 
 # Define environment variable
-ENV FLASK_APP=main.py
+ENV FLASK_APP=leemdiversapi.py
 
 # Run newtest.py when the container launches
 # Assuming newtest.py contains a Flask application that can be run directly
-CMD ["python", "main.py"]
+CMD ["python", "leemdiversapi.py"]
