@@ -11,8 +11,6 @@ RUN rm -rf /app/*
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
-# Create a requirements.txt if it doesn't exist, and add Flask to it
-RUN echo "Flask" > requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose port 443
